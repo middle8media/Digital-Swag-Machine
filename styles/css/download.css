@@ -1,0 +1,108 @@
+/*
+******************************
+* =@font-face
+******************************
+*/
+
+@font-face {
+    font-family: 'Governor';
+    src: url('../../fonts/governor-webfont.eot');
+    src: url('../../fonts/governor-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/governor-webfont.woff') format('woff'),
+         url('../../fonts/governor-webfont.ttf') format('truetype'),
+         url('../../fonts/governor-webfont.svg#GovernorRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Enriqueta';
+    src: url('../../fonts/Enriqueta-Regular-webfont.eot');
+    src: url('../../fonts/Enriqueta-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Enriqueta-Regular-webfont.woff') format('woff'),
+         url('../../fonts/Enriqueta-Regular-webfont.ttf') format('truetype'),
+         url('../../fonts/Enriqueta-Regular-webfont.svg#EnriquetaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*
+******************************
+* =General Styles
+******************************
+*/
+
+body {
+  background: url('../../img/background-metal.jpg') repeat fixed;
+  font-family: 'Enriqueta', serif;
+}
+
+p {
+  font-size:110%;
+}
+
+#hello p {
+  font-size:105%;
+  margin: 60px 0px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 1.7em;
+  font-family: 'Governor', sans-serif;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  letter-spacing: .2em;
+}
+
+ #col-left h2 {
+  float:left;
+  margin: 15px 0px 52px 0px;
+}
+
+ #col-left p {
+  float:left;
+  margin: 23px 0px 52px 0px;
+}
+
+#col-left img {
+  float: left;
+  width:64px;
+  height:64px;
+}
+
+ #col-right h2 {
+  float:right;
+  margin: 15px -7px 52px 0px;
+}
+
+ #col-right p {
+  float:right;
+  margin: 23px 0px 52px 0px;
+}
+
+#col-right img {
+  float: right;
+  width:64px;
+  height:64px;
+}
+
+#col-left img:hover, #col-right img:hover {
+  width:65px;
+  height:65px;
+}
+
+footer {
+width: 100%;
+max-width: 980px;
+}
+
+#footer p {
+margin-bottom: .1em;
+}
+
+
+
+
